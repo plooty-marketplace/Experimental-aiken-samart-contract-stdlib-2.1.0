@@ -1,0 +1,139 @@
+ list lib results
+ 
+ 
+ Compiling aiken-lang/list-function 0.0.0 (.)
+    Compiling aiken-lang/stdlib v2.1.0 (./build/packages/aiken-lang-stdlib)
+      Testing ...
+
+    ┍━ list ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    │ PASS [mem:   1365, cpu:   1441973] push_1
+    │ PASS [mem:   1365, cpu:   1714763] push_2
+    │ PASS [mem:  15207, cpu:   5316967] range_1
+    │ PASS [mem:  12339, cpu:   4422364] range_2
+    │ PASS [mem:   3735, cpu:   1737102] repeat_1
+    │ PASS [mem:  11643, cpu:   4274655] repeat_2
+    │ PASS [mem:  15323, cpu:   3896813] all_1
+    │ PASS [mem:   7232, cpu:   1712088] all_2
+    │ PASS [mem:   4433, cpu:    897143] all_3
+    │ PASS [mem:   6631, cpu:   1540039] any_1
+    │ PASS [mem:  15924, cpu:   4068862] any_2
+    │ PASS [mem:   5034, cpu:   1069192] any_3
+    │ PASS [mem:  18629, cpu:   5680781] at_1
+    │ PASS [mem:   4733, cpu:   1876358] at_2
+    │ PASS [mem:  18629, cpu:   5680781] at_3
+    │ PASS [mem:   8327, cpu:   2980504] at_4
+    │ PASS [mem:  17591, cpu:   5516786] at_5
+    │ PASS [mem:   4033, cpu:    809427] count_empty
+    │ PASS [mem:  17029, cpu:   4448721] count_all
+    │ PASS [mem:  16627, cpu:   4279154] count_some
+    │ PASS [mem:  15823, cpu:   3953097] count_none
+    │ PASS [mem:   8027, cpu:   2932504] find_1
+    │ PASS [mem:  16223, cpu:   4972028] find_2
+    │ PASS [mem:   4433, cpu:   1828358] find_3
+    │ PASS [mem:   6631, cpu:   1547082] has_1
+    │ PASS [mem:  15924, cpu:   4089991] has_2
+    │ PASS [mem:   5034, cpu:   1069192] has_3
+    │ PASS [mem:   3529, cpu:   1982416] head_1
+    │ PASS [mem:   2433, cpu:   1508358] head_2
+    │ PASS [mem:   2433, cpu:    577143] is_empty_1
+    │ PASS [mem:   3034, cpu:    749192] is_empty_2
+    │ PASS [mem:  16691, cpu:   5372786] index_of_1
+    │ PASS [mem:  17729, cpu:   5536781] index_of_2
+    │ PASS [mem:  21023, cpu:   6592927] index_of_3
+    │ PASS [mem:   4733, cpu:   1876358] index_of_4
+    │ PASS [mem:   4033, cpu:   1764358] last_1
+    │ PASS [mem:   6193, cpu:   2613073] last_2
+    │ PASS [mem:  14377, cpu:   5149015] last_3
+    │ PASS [mem:   3233, cpu:    681427] length_1
+    │ PASS [mem:   9431, cpu:   2589022] length_2
+    │ PASS [mem:   4665, cpu:   1894210] delete_1
+    │ PASS [mem:   7163, cpu:   3001334] delete_2
+    │ PASS [mem:  18447, cpu:   6019177] delete_3
+    │ PASS [mem:   7163, cpu:   2592149] delete_4
+    │ PASS [mem:   5367, cpu:   2126096] drop_1
+    │ PASS [mem:  11671, cpu:   3992999] drop_2
+    │ PASS [mem:   4265, cpu:   1830210] drop_while_1
+    │ PASS [mem:  24613, cpu:   8154531] drop_while_2
+    │ PASS [mem:   6463, cpu:   3844099] drop_while_3
+    │ PASS [mem:  40565, cpu:  11829110] drop_while_4
+    │ PASS [mem:   4665, cpu:   1894210] filter_1
+    │ PASS [mem:  32643, cpu:  10359556] filter_2
+    │ PASS [mem:  40977, cpu:  12245962] filter_3
+    │ PASS [mem:   5665, cpu:   2054210] filter_map_1
+    │ PASS [mem:  54931, cpu:  17314628] filter_map_2
+    │ PASS [mem:   4433, cpu:   1828358] init_1
+    │ PASS [mem:   7725, cpu:   2909490] init_2
+    │ PASS [mem:  17901, cpu:   6609153] init_3
+    │ PASS [mem:   4665, cpu:   2112442] partition_1
+    │ PASS [mem:  81485, cpu:  25394472] partition_2
+    │ PASS [mem:  82581, cpu:  25803478] partition_3
+    │ PASS [mem:  82581, cpu:  25733048] partition_4
+    │ PASS [mem:  36997, cpu:  12237146] partition_5
+    │ PASS [mem:  27731, cpu:   8551907] slice_1
+    │ PASS [mem:  34867, cpu:  10543409] slice_2
+    │ PASS [mem:  54225, cpu:  16584303] slice_3
+    │ PASS [mem:  53259, cpu:  16819231] slice_4
+    │ PASS [mem:  47989, cpu:  14736801] slice_5
+    │ PASS [mem:  43665, cpu:  12846440] slice_6
+    │ PASS [mem:   4965, cpu:   2160442] span_1
+    │ PASS [mem:  23799, cpu:   8061202] span_2
+    │ PASS [mem:   8559, cpu:   3597646] span_3
+    │ PASS [mem:  27825, cpu:   9264961] span_4
+    │ PASS [mem:   3761, cpu:   2292292] tail_1
+    │ PASS [mem:   2433, cpu:   1508358] tail_2
+    │ PASS [mem:   6167, cpu:   2254096] take_1
+    │ PASS [mem:  13799, cpu:   4760418] take_2
+    │ PASS [mem:   4665, cpu:   1894210] take_while_1
+    │ PASS [mem:  30133, cpu:   9424836] take_while_2
+    │ PASS [mem:   7163, cpu:   2592149] take_while_3
+    │ PASS [mem:  50605, cpu:  15573670] take_while_4
+    │ PASS [mem:   4665, cpu:   1894210] unique_1
+    │ PASS [mem: 415774, cpu: 114512924] unique_2
+    │ PASS [mem:   4265, cpu:   1830210] flat_map_1
+    │ PASS [mem:  35597, cpu:  11502195] flat_map_2
+    │ PASS [mem:  10764, cpu:   2719904] for_each_1
+    │ · with traces
+    │ | world
+    │ | hello
+    │ PASS [mem:   4565, cpu:   1878210] indexed_map_1
+    │ PASS [mem:  24949, cpu:   8102998] indexed_map_2
+    │ PASS [mem:   4265, cpu:   1830210] map_1
+    │ PASS [mem:  17041, cpu:   6325470] map_2
+    │ PASS [mem:   4565, cpu:   1878210] map2_1
+    │ PASS [mem:  17937, cpu:   6137493] map2_2
+    │ PASS [mem:  10185, cpu:   3754954] map2_3
+    │ PASS [mem:   4865, cpu:   1926210] map3_1
+    │ PASS [mem:  23897, cpu:   7889011] map3_2
+    │ PASS [mem:   4565, cpu:   1878210] reverse_1
+    │ PASS [mem:  12449, cpu:   4597902] reverse_2
+    │ PASS [mem: 284747, cpu: 112039570] sort_1
+    │ PASS [mem:  89205, cpu:  34186101] sort_2
+    │ PASS [mem: 370815, cpu: 143399355] sort_3
+    │ PASS [mem:   4665, cpu:   1894210] sort_4
+    │ PASS [mem:   4265, cpu:   2048442] unzip_1
+    │ PASS [mem:  17817, cpu:   7035390] unzip_2
+    │ PASS [mem:  11249, cpu:   4815087] concat_1
+    │ PASS [mem:  11249, cpu:   4405902] concat_2
+    │ PASS [mem:   4265, cpu:   2239395] concat_3
+    │ PASS [mem:  44215, cpu:  12499765] difference_1
+    │ PASS [mem:  41717, cpu:  12120284] difference_2
+    │ PASS [mem:   4965, cpu:   2351395] difference_3
+    │ PASS [mem:  18345, cpu:   5360845] difference_4
+    │ PASS [mem:   4565, cpu:   1878210] zip_1
+    │ PASS [mem:   6693, cpu:   2516761] zip_2
+    │ PASS [mem:  16733, cpu:   6231212] zip_3
+    │ PASS [mem:   3933, cpu:    793427] foldl_1
+    │ PASS [mem:  18083, cpu:   5052222] foldl_2
+    │ PASS [mem:  15077, cpu:   5504466] foldl_3
+    │ PASS [mem:  16283, cpu:   4764222] foldr_1
+    │ PASS [mem:  17026, cpu:   4539219] foldr_2
+    │ PASS [mem:  13577, cpu:   5264466] foldr_3
+    │ PASS [mem:   3933, cpu:    793427] indexed_foldr_1
+    │ PASS [mem:  17639, cpu:   6987684] indexed_foldr_2
+    │ PASS [mem:   3933, cpu:    793427] reduce_1
+    │ PASS [mem:  12423, cpu:   3348704] reduce_2
+    │ PASS [mem:  17719, cpu:   4723159] reduce_3
+    │ PASS [mem:  13323, cpu:   3168515] reduce_4
+    ┕━━━━━━━━━━━━━━━━━ 125 tests | 125 passed | 0 failed
+
+      Summary 125 checks, 0 errors, 0 warnings
